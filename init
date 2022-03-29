@@ -4,3 +4,8 @@ git commit -m first commit
 git branch -M main
 git remote add origin https://github.com/mudit-pati/Accelerated-CSFundamentals.git
 git push -u origin main
+rm rf .git: to convert a git repo to normal folder. .git is hidden but the command will work
+git add will start tracking the file for the repo
+git commit will 'stage' the change to the repo
+git push will finally push it to the origin or remote repo. Best way to do it is git push origin main. Main refers to the branch name
+
